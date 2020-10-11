@@ -3,3 +3,12 @@ One day a mathematician by name Ramakrishna was travelling on a Train which is f
 Write a program which takes number of compartments as inputs, takes JETPACK threshold values for each compartment, and the value of the compartment where the thesis paper is hidden, and return the minimum hops Ramkrishna have to make to find his thesis paper.
 
 Note: Always Ramakrishna have to start from compartment 1
+
+# How To Run
+Pass input as command line argument separated by space
+Example: If you need to pass number of compartment as 5 and threshold value of each of the compartment as 2,3,1,1,3 and compartment number with thesis as 5, then pass command line argument as following:
+>java Jetpack 5 {2,3,1,1,3} 5 
+
+or
+
+>java Jetpack 5 2 3 1 1 3 5
