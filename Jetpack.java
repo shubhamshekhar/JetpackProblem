@@ -13,7 +13,7 @@ class Jetpack {
 	private static void instructionToPassArgument(){
 		System.out.println("* Invalid command line argument passed. Please pass valid values as a command line argument");
 		System.out.println("\t* Example: If you need to pass number of compartment as 5 and \n\tthreshold value of each of the compartment as 2,3,1,1,3 and \n\tcompartment number with thesis as 5, \n\tthen pass command line argument as following:");
-		System.out.println("\tjava Jetpack 5 {2,3,1,1,3} 5 \n\tor \n\tjava Jetpack 2 3 1 1 3 5");
+		System.out.println("\tjava Jetpack 5 {2,3,1,1,3} 5 \n\tor \n\tjava Jetpack 5 2 3 1 1 3 5");
 	}
 
 	private static int minHops(int number_of_compartments, int[] threshold, int compartment_with_thesis) { 
